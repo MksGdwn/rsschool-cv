@@ -6,9 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>cv</title>
 </head>
 <body>
-    
+    <header class="page-header">
+        <nav class="navbar">
+            <div class="container">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="#education" class="navbar__link">Education</a></li>
+                    <li class="navbar__item"><a href="#about" class="navbar__link">About</a></li>
+                    <li class="navbar__item"><a href="#skills" class="navbar__link">Skills</a></li>
+                    <li class="navbar__item"><a href="#projects" class="navbar__link">Projects</a></li>
+                    <li class="navbar__item"><a href="#languages" class="navbar__link">Languages</a></li>
+                    <li class="navbar__item"><a href="#example" class="navbar__link">Examples</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="container__block container__block--left">
+                <figure class="photo">
+                    <img class="photo__image" src="assets/img/image.jpg" alt="Maksim Pogudin photo">
+                </figure>
+            </div>
+            <div class="container__block container__block--right">
+                <h1 class="page-title">Maksim Pogudin</h1>
+                <div class="speciality">Junior Front-end Developer</div>
+                <div class="contacts">
+                    <div class="contacts__item">
+                        <h3 class="contacts__item-title">Phone:</h3>
+                        <p class="contacts__item-info">+7 919 487-75-01</p>
+                    </div>
+                    <div class="contacts__item">
+                        <h3 class="contacts__item-title">GitHub:</h3>
+                        <p class="contacts__item-info">MksGdwn</p>
+                    </div>
+                    <div class="contacts__item">
+                        <h3 class="contacts__item-title">Email:</h3>
+                        <p class="contacts__item-info">mksgdwn@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page-content">
+        <div class="container">
+            <div class="container__block container__block--left">
+                <section id="education" class="education">
+                    <h2 class="education__title"></h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <span class="education__item-year">2005 - 2009</span>
+                            <span class="education__item-speciality">Electrical Engineering</span>
+                            <span class="education__item-name">Perm Chemical Engineering College</span>
+                        </li>
+                        <li class="education__item">
+                            <span class="education__item-year">2022 - 2023</span>
+                            <span class="education__item-speciality">Javascript/Front-End Program</span>
+                            <span class="education__item-name">Rolling Scopes School</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="container__block container__block--right">
+                <section id="about" class="about">
+                    <h2 class="about__title">About me:</h2>
+                    <p class="about__desc">Hi! Now I am working as a manual QA engineer. I want to expand my professional skills and become a front-end developer.</p>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__block container__block--left">
+                <section id="skills" class="skills">
+                    <h2 class="skills__title">Skills:</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">Figma</li>
+                        <li class="skills__item">Postman</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="container__block container__block--right">
+                <section id="projects" class="projects">
+                    <h2 class="projects__title">Recent projects:</h2>
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            <a href="#" class="projects__link">Portfolio</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__block container__block--left">
+                <section id="languages" class="languages">
+                    <h2 class="languages__title">Languages:</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">English: A2</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="container__block container__block--right">
+                <section id="example" class="example">
+                    <h2 class="example__title">Code example:</h2>
+                    <pre class="example__block">
+                        <code class="example__code">
+                            let i = 0;
+                            while (i < 3) { 
+                                alert( i );
+                                i++;
+                            }
+                        </code>
+                    </pre>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <a href="#" class="github-link">github</a>
+            <p class="copyright">© Pogudin M.N., 2022</p>
+            <a href="#" class="rsschool-link">rsschool</a>
+        </div>
+    </footer>
 </body>
 </html>
