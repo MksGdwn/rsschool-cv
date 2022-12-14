@@ -150,6 +150,17 @@ body {
     line-height: 24px;
 }
 
+.contacts__github-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.contacts__github-link:hover {
+    color: #fff;
+
+    transition: .3s;
+}
+
 /**********************   Education   **********************/
 
 .education {
