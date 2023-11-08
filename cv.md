@@ -29,4 +29,4 @@ function removeChar(str){
   + JS / Front-end. Stage 0
 
 ## Languages
-**English**- A2
+**English** - A2
