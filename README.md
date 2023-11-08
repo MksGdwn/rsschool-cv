@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mksGdwn.github.io/rsschool-cv/
