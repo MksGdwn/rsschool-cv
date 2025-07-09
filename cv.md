@@ -17,4 +17,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 ## Education
 * Perm Chemical Technology College
 
+## English
+* A1
+
 
