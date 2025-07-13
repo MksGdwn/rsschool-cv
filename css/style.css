@@ -35,3 +35,70 @@ body {
 .container__block--right {
   width: 480px;
 }
+
+/**********************   Page-header   **********************/
+
+.page-header {
+  color: #fff;
+
+  background-color: #171C26;
+}
+
+/**********************   Navbar   **********************/
+
+.navbar {
+  padding: 15px 0;
+
+  background-color: #fff;
+}
+
+.navbar__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navbar__item {
+  margin-right: 40px;
+}
+
+.navbar__link {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-decoration: none;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+}
+
+/**********************   Photo   **********************/
+
+.photo {
+  margin: 0;
+  padding: 75px 0;
+}
+
+.photo__image {
+  width: 350px;
+  height: 390px;
+  margin-left: -55px;
+}
+
+/**********************   Page-title   **********************/
+
+.page-title {
+  margin: 0;
+  margin-bottom: 14px;
+  padding: 0;
+  padding-top: 70px;
+
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 77px;
+}
