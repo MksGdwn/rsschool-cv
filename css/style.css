@@ -351,3 +351,21 @@ body {
   background-color: #d9d9d9;
   border-radius: 15px;
 }
+
+/**********************   Footer   **********************/
+
+.page-footer {
+  padding: 15px 0;
+
+  color: #fff;
+
+  background-color: #171C26;
+}
+
+.copyright {
+  flex-grow: 1;
+
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
