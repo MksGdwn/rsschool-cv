@@ -102,3 +102,61 @@ body {
   font-weight: bold;
   line-height: 77px;
 }
+
+/**********************   Speciality   **********************/
+
+.speciality {
+  display: inline-block;
+  margin-bottom: 64px;
+  padding: 6px 12px;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+/**********************   Contacts   **********************/
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts__item {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.contacts__item-title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.contacts__item-info {
+  margin: 0;
+  padding: 0;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts__github-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.contacts__github-link:hover {
+  color: #fff;
+
+  transition: .3s;
+}
