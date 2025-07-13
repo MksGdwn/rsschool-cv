@@ -188,3 +188,16 @@ body {
 .education__item span {
   display: block;
 }
+
+/**********************   About   **********************/
+
+.about {
+  margin-bottom: 60px;
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  padding-top: 60px;
+}
